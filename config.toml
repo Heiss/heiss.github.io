@@ -1,5 +1,5 @@
 baseURL = "https://heiss.github.io/"
-languageCode = "de"
+languageCode = "en—us"
 title = "Netzmuffel - Alles und Nichts"
 theme = "blank"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
