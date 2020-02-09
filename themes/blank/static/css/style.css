@@ -1,0 +1,104 @@
+.navigationBoxTopRight {
+    float: right; 
+    width: 240px;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 2px;
+}
+
+.buttonShowHide {
+    float:right;
+}
+
+.title {
+    float:right;
+    font-weight: bold;
+    padding-right: 10px;
+    color: #fff;
+    vertical-align: middle;
+    padding: 14px;
+}
+
+.navigationBar {
+    min-width: 200px;
+    white-space: nowrap;
+    display: block;   
+    overflow: auto;
+    background-color: #333;
+}
+
+.navigationBar a {
+    display: inline-block;
+    padding: 14px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navigationBar a:hover {
+    background-color: #777;
+}
+
+.navigationTop {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background: #333;
+}
+
+.spacer {
+    height: 50px;
+}
+
+.sectionLink {
+    width:100%;
+}
+
+.leftSectionLink .rightSectionLink {
+    width: 10px;
+}
+
+.rightSectionLink {
+    float: right;
+}
+
+.centerSectionLink {
+    display: inline-block;
+    margin:0 auto;
+    width:100px;
+    background-color: #333;
+}
+
+@media screen and (max-width:700px) {
+    .navigationBoxTopRight {
+        clear: both;
+        width:99%; /* The width is 100%, when the viewport is 800px or smaller */
+        margin: 0px;
+        padding: 2px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .navigationBar {
+        clear: both;
+    }
+
+    .spacer {
+        height: 120px;
+    }
+
+    .sectionLink {
+        display: none;
+    }
+}
+
+.article, .entryContent {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.mailLink {
+    text-align: right;
+    width: 100%;
+}

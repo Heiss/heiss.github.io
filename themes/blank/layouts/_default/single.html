@@ -1,0 +1,38 @@
+{{ partial "header.html" . }}
+
+{{ if ne .Type "page" }}
+        <div class="sectionLink">
+                <div class="rightSectionLink">
+                        {{ with .NextInSection }}
+                                <a href={{ .URL }}>{{ .Title }}</a>
+                        {{ end }}
+                </div>
+                <div class="leftSectionLink">
+                        {{ with .PrevInSection }}
+                                <a href={{ .URL}}>{{ .Title }}</a>
+                        {{ end }}
+                </div>
+                <div class="centerSectionLink"></div>
+        </div>
+{{ end }}
+
+<article>
+        <h1>{{ .Title }}</h1>
+        
+        {{ if (eq .Type "post" )}}
+                <i>geschrieben am {{ printf "%s, %d. %s %d" ( index $.Site.Data.de.days ( printf "%d" .Date.Weekday )) ( .Date.Day ) ( index $.Site.Data.de.month ( printf "%d" .Date.Month )) ( .Date.Year ) }} um {{ .Date.Format "15:04" }} Uhr.</i>
+        {{ end }}
+        
+        {{ if .Params.toc }}
+                {{ .TableOfContents }}
+        {{ end }}
+        {{ with .Params.link }}
+                {{ partial "podcast.html" . }}
+        {{ end }}
+
+        <div class="article">{{ .Content }}</div>
+
+        <div class="mailLink"><a href="mailto:peter.heiss@netzmuffel.de?subject=Kommentar zu {{.Title }}">Kommentar zu dieser Nachricht senden.</a></div>
+</article>
+
+{{ partial "footer.html" . }}

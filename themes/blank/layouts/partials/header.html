@@ -1,0 +1,44 @@
+<!doctype html>
+
+<html lang="de">
+    <head>
+            <meta charset="utf-8"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+            <title>{{ .Title }} | {{ .Site.Title }}</title>
+            {{ range .AlternativeOutputFormats -}}
+            <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}" title="{{ $.Site.Title }}">
+            {{ end }}
+            
+            <link rel="stylesheet" type="text/css" href="/css/style.css">
+            <script type="text/javascript" language="javascript" src="/js/scripts.js"></script>
+
+            <link rel="stylesheet" href="/css/katex.min.css">
+            <script defer src="/js/katex.min.js" async></script>
+            <script defer src="/js/auto-render.min.js" ></script>
+            <script>
+                document.addEventListener("DOMContentLoaded", function() {
+                renderMathInElement(document.body, {
+            // ...options...
+                  delimiters: [
+                    {left: "$$", right: "$$", display: true},
+                    {left: "$", right: "$", display: false},
+                  ]
+                });
+              });
+            </script>
+    </head>
+    <body>
+        
+        <div class="spacer"></div>
+        <div class="navigationTop">
+                <div class="title">{{ .Site.Title }}</div>
+                <div class="navigationBar">
+                        <a href="/">Startseite</a>
+                        <a href="{{ ref . "/listen.md" }}">Beiträge</a>
+                        <a href="{{ ref . "/poker/uebersicht.md" }}">Poker</a>
+                        <a href="{{ ref . "/talk.md" }}">Podcast</a>
+                        <a href="/index.xml">Feed</a>
+                        <a href="{{ ref . "/ueber.md" }}">Über den Blog</a>
+                        <a href="{{ ref . "/kontakt.md" }}">Kontakt</a>
+                </div>
+        </div>

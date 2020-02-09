@@ -1,0 +1,13 @@
+{{ partial "header.html" . }}
+
+<h1>Alle {{ .Section | humanize }} Beiträge</h1>
+
+{{ range .Pages }}
+  {{ if (not .Params.Draft) }}
+    <div id="{{.Title | urlize }}" class="entryLink">
+      <a href="{{ .Permalink }}">{{ .Title }}</a> <i>geschrieben am {{ printf "%s, %d. %s %d" ( index $.Site.Data.de.days ( printf "%d" .Date.Weekday )) ( .Date.Day ) ( index $.Site.Data.de.month ( printf "%d" .Date.Month )) ( .Date.Year ) }} um {{ .Date.Format "15:04" }} Uhr.</i>
+    </div>
+  {{ end }}
+{{ end }}
+
+{{ partial "footer.html" . }}
