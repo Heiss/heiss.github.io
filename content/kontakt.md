@@ -22,7 +22,7 @@ Peter Heiss\
 Julius-Leber-Straße 12\
 48151 Münster
 
-Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:
+Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:\
 Peter Heiss
 
 ## Haftungsausschluss: 
