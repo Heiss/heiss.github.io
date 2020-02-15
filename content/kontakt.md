@@ -6,7 +6,6 @@ author: PhysicX
 
 Öffentlicher PGP-Schlüssel: [public.asc](/download/public.asc)\
 E-Mail-Adresse: peter.heiss (at) netzmuffel (dot) de\
-Twitter: [@Netzmuffelde](https://twitter.com/Netzmuffelde)
 
 # Datenschutzerklärung
 Es werden lediglich Daten wie IP-Adresse und Zugriffe auf diesen Blog technisch bedingt in den Logs gespeichert. Diese werden verwendet für die Erzeugung von Statistiken, um mögliche Probleme oder Angriffe erkennen und angemessen darauf reagieren zu können (DDoS, technische Pobleme etc.).
