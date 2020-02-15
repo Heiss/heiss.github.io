@@ -4,7 +4,7 @@
     <i>Diese Seite erstellt keine Cookies und erhebt lediglich technisch notwendige Daten (IP-Adresse, Seitenaufrufe, etc.) zur Verhinderung von Angriffen und Identifizierung von Problemen. Mehr dazu im <a href={{ ref . "/kontakt.md" }}>Impressum</a>.</i>
 </div>
 
-{{ range first .Site.Params.show_posts .Site.Pages }}
+{{ range .Pages }}
     <div id="{{.Title | urlize }}" class="entryLink">
         <a href="{{ .Permalink }}">[L] {{ .Title }}</a>
     </div>
