@@ -50,7 +50,6 @@ Im Folgenden werden einige meiner Fähigkeiten und Erfahrungen aufgelistet.
 - Java, Python, PHP, NodeJS
 - HTML, CSS, JavaScript, Ajax
 - SQL
-- Latex
 - C / C++ / C#
 - Ruby
 - VHDL
@@ -72,6 +71,7 @@ Im Folgenden werden einige meiner Fähigkeiten und Erfahrungen aufgelistet.
 - Linux: Debian, Ubuntu, Arch Linux, CentOS, Fedora
 - Netzwerktopologien und Serverwartung mithilfe von Ansible
 - Arduino, Raspberry Pi3
+- Latex
 - Microsoft Office (Word, Powerpoint, Outlook, Access, Visio, etc)
 
 ## bisherige Tätigkeiten:
