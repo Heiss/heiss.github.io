@@ -4,7 +4,12 @@
     <i>Diese Seite erstellt keine Cookies und erhebt lediglich technisch notwendige Daten (IP-Adresse, Seitenaufrufe, etc.) zur Verhinderung von Angriffen und Identifizierung von Problemen. Mehr dazu im <a href={{ ref . "/kontakt.md" }}>Impressum</a>.</i>
 </div>
 
-{{ range .Pages }}
+{{ $post := where .Site.Pages "Type" "post" }}
+{{ $podcast := where .Site.Pages "Type" "podcast" }}
+{{ $entries := $post | union $podcast }}
+
+{{ range $entries.ByDate.Reverse }}
+  {{ if (not .Params.Draft) }}
     <div id="{{.Title | urlize }}" class="entryLink">
         <a href="{{ .Permalink }}">[L] {{ .Title }}</a>
     </div>
@@ -16,6 +21,7 @@
     </div>
 
     <hr />
+  {{ end }}
 {{ end }}
 
 {{ partial "footer.html" . }}
