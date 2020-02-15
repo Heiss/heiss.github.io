@@ -18,8 +18,8 @@ Falls sich die E-Mail auf einen Beitrag auf diesem Blog bezieht, so behält sich
 Angaben gemäß § 5 TMG
 
 Peter Heiss\
-Julius-Leber-Straße 12\
-48151 Münster
+Röntgenstraße 7-13
+48149 Münster
 
 Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:\
 Peter Heiss
