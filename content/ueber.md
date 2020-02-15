@@ -25,14 +25,16 @@ Wie ich schon im [Vorstellungsbeitrag]({{< relref "post/vorstellung.md" >}}) bes
 # Projekte
 ## Currently Development:
 
+- [Connexion Plus](https://github.com/Sciebo-RDS/connexion-plus) (funktionale Erweiterung des von Zalando entwickelten Frameworks [Connexion](https://github.com/zalando/connexion))
+- [Sciebo RDS](https://github.com/Sciebo-RDS/Sciebo-RDS)
 - [Lösen von komplexen Aufgaben zum Vertiefen oder Lernen von Programmiersprachen](https://github.com/iPhysicX/learning_tasks)
 
-## Vergangene Projekte / auf Halt gesetzt:
+## Vergangene Projekte / auf Halt gesetzt:wwww
 
 - [WebCrawler for RSS-Feeds](https://github.com/iPhysicX/WebMining)
 - [Gametime Tracker](https://github.com/iPhysicX/GamePlayTracker)
 - [Content Sniffer für Moodle Wiki](https://github.com/iPhysicX/DDISkriptParserPython) (aufgrund von Datenschutz nicht öffentlich zugänglich)
-- [Notenprogramm für Lehrende](https://github.com/iPhysicX/GradeBank) - [Updater](https://github.com/iPhysicX/Gradebank-Updater)
+- [Notenprogramm für Lehrende](https://github.com/Heiss/GradeBank) - [Updater](https://github.com/Heiss/Gradebank-Updater)
 - Emotionserkennung auf [DISFA Datensatz](http://www.engr.du.edu/mmahoor/DISFA.htm) mittels neuronale Netze
 - [Hackthissite.org](https://www.hackthissite.org/user/view/iPhysicX/)
 
@@ -40,46 +42,55 @@ Wie ich schon im [Vorstellungsbeitrag]({{< relref "post/vorstellung.md" >}}) bes
 
 # Curriculum Vitae
 
-Mein Name ist Peter. Ich habe nach dem Abitur zuerst *Technische Informatik* studiert, habe aber später den Studiengang gewechselt und mit einem *Bachelor of Science* abgeschlossen. Aus diesem Grund habe ich nun grundlegende und zum Teil vertiefende Kenntnisse in Elektrotechnik, Physik, (Technische, Theoretische, Methodische und Praktische) Informatik, Mathematik (Algebra, Analysis, Stochastik, Numerik) und Bildungswissenschaft. Im Folgenden werden einige meiner Fähigkeiten und Erfahrungen aufgelistet.
+Mein Name ist Peter. Ich habe nach dem Abitur zuerst *Technische Informatik* studiert, habe aber später den Studiengang gewechselt und mit einem *Bachelor of Science* abgeschlossen. Anschließend habe ich ein Studium mit dem *Master of Education* in den Fächern Informatik, Mathematik und Bildungswissenschaften abgeschlossen. Aus diesem Grund habe ich nun grundlegende und zum Teil vertiefende Kenntnisse in (Technische, Theoretische, Methodische und Praktische) Informatik, Mathematik (Algebra, Analysis, Stochastik, Numerik),  Bildungswissenschaft, Elektrotechnik und Physik. 
+Die Themen meiner Abschlussarbeiten waren:
 
-## Programmiersprachen:
+- Hadoop as a Service
+- Überfachlicher Einsatz von Methoden des maschinellen Lernens
 
-- Java
-- Python 2 / 3
-- HTML / CSS
-- JavaScript, NodeJS
-- PHP, Ajax
+Im Folgenden werden einige meiner Fähigkeiten und Erfahrungen aufgelistet.
+
+## Kenntnisse in folgenden Programmier- und Skriptsprachen:
+
+- Java, Python, PHP, NodeJS
+- HTML, CSS, JavaScript, Ajax
 - SQL
 - Latex
 - C / C++ / C#
 - Ruby
 - VHDL
 
-## Erfahrungen in / mit:
+## Erfahrungen in / im Umgang mit:
 
-- Apache2 Webserver / Nginx
-- MySQL / PostgreSQL
+- agile Softwareentwicklung mit Git unter Zuhilfenahme von Confluence und Jira
+- DevOps mit Gitlab und Github
+- Erstellung und Nutzung von Microservices mithilfe von Containerisierung in Kubernetes
+- Apache2 und Nginx Webserver
+- MySQL und PostgreSQL Datenbankserver
 - Visual Studio, Eclipse, IntelliJ IDEA
-- Microsoft Office (Word, Powerpoint, Outlook, Access, Visio, etc)
-- OpenCV
-- Keras (verschiedene Modelle für Neuronale Netze, Techniken zur Reduktion der Komplexität)
-- Metasploit, Expertise in Hacking, Software- und Internetsicherheit
-- Apache Hadoop
+- maschinelles und statisches Lernen mithilfe von Keras und OpenCV (verschiedene Modelle für Neuronale Netze, Techniken zur Reduktion der Komplexität)
+- Penetration Testing mithilfe von Metasploit und grundlegende Kenntnisse in Softwaresicherheit
+- Verarbeitung von Big Data mithilfe von Apache Hadoop und Celery
 - Microsoft Windows: XP / Vista / 7 / 8 / 10
-- Linux: Debian / Ubuntu, Arch Linux
-- Git, SVN
-- Arduino, Raspberry Pi3
 
-## Tätigkeiten:
+## Weitere Kenntnisse
+- Linux: Debian, Ubuntu, Arch Linux, CentOS, Fedora
+- Netzwerktopologien und Serverwartung mithilfe von Ansible
+- Arduino, Raspberry Pi3
+- Microsoft Office (Word, Powerpoint, Outlook, Access, Visio, etc)
+
+## bisherige Tätigkeiten:
 
 - Praktikant in einer SEO-Firma (6 Monate)
 - Lehrtätigkeit als Tutor für Informatik I und II (12 Monate)
+- Mitarbeiter im DFG-geförderten Projekt *Sciebo RDS* an der Uniersität *WWU Münster*
 
 ## Hobbies
 
 - Programmierung (Teilnahme an Programmierwettbewerben (Ludum Dare '12, BeansJam '17))
-- Hacking & Sicherheitsforschung
+- Wandern
 - Lehrtätigkeiten
+- Hacking & Sicherheitsforschung
 - Musizieren
 - Unterhaltungsmedien: Film, Serien und Podcast
 - Heimwerken
