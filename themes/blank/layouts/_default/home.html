@@ -8,7 +8,7 @@
 {{ $podcast := where .Site.Pages "Type" "podcast" }}
 {{ $entries := $post | union $podcast }}
 
-{{ range $entries.ByDate.Reverse }}
+{{ range first .Site.Params.show_posts $entries.ByDate.Reverse }}
   {{ if (not .Params.Draft) }}
     <div id="{{.Title | urlize }}" class="entryLink">
         <a href="{{ .Permalink }}">[L] {{ .Title }}</a>
