@@ -5,7 +5,3 @@ author: PhysicX
 layout: list.all
 
 ---
-
-# Weitere verfügbare Übersichten
-- [Beiträge ohne Podcasts](/post/)
-- [Alle Podcasts](/podcast/)
