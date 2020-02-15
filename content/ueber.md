@@ -20,8 +20,6 @@ Ich möchte auf dieser Seite interessante Technikfakten und spannende Geschichte
 # Warum sieht die Seite so plump aus?
 Wie ich schon im [Vorstellungsbeitrag]({{< relref "post/vorstellung.md" >}}) beschrieben habe, soll dieser Blog sehr simpel und schnell geladen werden, aber auch funktional sein. Es ist dabei eben nicht das Ziel besonders hübsch zu sein. Der Vorteil eines responsiven Designs bekommt man quasi geschenkt, solange man keine festen Breiten definiert. Außerdem soll Sicherheit und Datenschutz an vorderster Front stehen, indem ich nötige Lücken und Probleme nicht erst aufmache oder Daten erhebe, die ich nicht benötige wie es so gerne andere Blogs und Systeme (ja Wordpress, du bist gemeint!) machen.
 
----
-
 # Projekte
 ## Currently Development:
 
@@ -29,7 +27,7 @@ Wie ich schon im [Vorstellungsbeitrag]({{< relref "post/vorstellung.md" >}}) bes
 - [Sciebo RDS](https://github.com/Sciebo-RDS/Sciebo-RDS)
 - [Lösen von komplexen Aufgaben zum Vertiefen oder Lernen von Programmiersprachen](https://github.com/iPhysicX/learning_tasks)
 
-## Vergangene Projekte / auf Halt gesetzt:wwww
+## Vergangene Projekte / auf Halt gesetzt:
 
 - [WebCrawler for RSS-Feeds](https://github.com/iPhysicX/WebMining)
 - [Gametime Tracker](https://github.com/iPhysicX/GamePlayTracker)
@@ -94,8 +92,6 @@ Im Folgenden werden einige meiner Fähigkeiten und Erfahrungen aufgelistet.
 - Musizieren
 - Unterhaltungsmedien: Film, Serien und Podcast
 - Heimwerken
-
-----
 
 ## ehemalige (betreute) Domains:
 
