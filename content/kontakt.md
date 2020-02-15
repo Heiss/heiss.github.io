@@ -4,8 +4,8 @@ date: 2017-10-21T22:29:02+02:00
 author: PhysicX
 ---
 
-Öffentlicher PGP-Schlüssel: [public.asc](/download/public.asc)\\
-E-Mail-Adresse: peter.heiss (at) netzmuffel (dot) de\\
+Öffentlicher PGP-Schlüssel: [public.asc](/download/public.asc)
+E-Mail-Adresse: peter.heiss (at) netzmuffel (dot) de
 Twitter: [@Netzmuffelde](https://twitter.com/Netzmuffelde)
 
 # Datenschutzerklärung
@@ -18,11 +18,11 @@ Falls sich die E-Mail auf einen Beitrag auf diesem Blog bezieht, so behält sich
 # Impressum
 Angaben gemäß § 5 TMG
 
-Peter Heiss\\
-Julius-Leber-Straße 12\\
+Peter Heiss
+Julius-Leber-Straße 12
 48151 Münster
 
-Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:\\
+Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:
 Peter Heiss
 
 ## Haftungsausschluss: 
