@@ -2,7 +2,6 @@
 title: "Über den Blog"
 date: 2017-10-21T21:31:33+02:00
 author: PhysicX
-toc: true
 ---
 
 # Was ist ein Muffel?
@@ -35,8 +34,6 @@ Wie ich schon im [Vorstellungsbeitrag]({{< relref "post/vorstellung.md" >}}) bes
 - [Notenprogramm für Lehrende](https://github.com/Heiss/GradeBank) - [Updater](https://github.com/Heiss/Gradebank-Updater)
 - Emotionserkennung auf [DISFA Datensatz](http://www.engr.du.edu/mmahoor/DISFA.htm) mittels neuronale Netze
 - [Hackthissite.org](https://www.hackthissite.org/user/view/iPhysicX/)
-
----
 
 # Curriculum Vitae
 
