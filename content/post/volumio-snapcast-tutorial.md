@@ -14,24 +14,31 @@ Now enable the dev ssh connection (https://volumio.github.io/docs/User_Manual/SS
 sh volumio_install_from_zip.sh Saiyato volumio-snapcast-plugin
 ```
 
-Now you should everything configure like me and after this, restart your volumio installation with
+Now you should everything configure like me.
+
+## /etc/snapserver.conf
+```bash
+
+```
+
+## /etc/MPD.conf
+```bash
+
+```
+
+## /etc/spop.conf
+```bash
+
+```
+
+## /etc/asound.conf
+```bash
+
+```
+
+After this, restart your volumio installation with
 ```bash
 sudo systemctl restart volumio
 ```
 
-You can found the following config files in folder '/etc'.
-
-## MPD.conf
-```bash
-
-```
-
-## spop.conf
-```bash
-
-```
-
-## asound.conf
-```bash
-
-```
+Everything should now run as expected and your snapclients should connects within 30 seconds after you plugin the power cord. Have fun.
