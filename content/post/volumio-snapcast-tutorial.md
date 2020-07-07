@@ -107,27 +107,9 @@ resampler {
 
 audio_output {
                 type            "alsa"
-                enabled         "yes"
                 name            "alsa"
-                device          "hw:0,0"
-                dop                     "no"
-
-
-
-
+                device          "plughw:0"
 }
-
-
-
-
-
-#audio_output {
-#    type            "fifo"
-#    enabled         "yes"
-#    name            "multiroom"
-#    path            "/tmp/snapfifo"
-#    format          "44100:16:2"
-#}
 
 #replaygain                     "album"
 #replaygain_preamp              "0"
@@ -168,7 +150,7 @@ cache_path =/run/shm
 
 [sox]
 output_type = alsa
-output_name = hw:0,0
+output_name = plughw:0
 ```
 
 ## /etc/asound.conf
@@ -198,11 +180,6 @@ ctl.card0 {
    card 0
 }
 #SNAPCAST
-pcm.!snapcast {
-        type plug
-        slave.pcm snapConverter
-}
-
 pcm.writeFile {
         type file
         slave.pcm null
