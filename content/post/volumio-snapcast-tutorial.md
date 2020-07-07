@@ -49,7 +49,7 @@ USER_OPTS="--user snapserver:snapserver"
 SNAPSERVER_OPTS="-d -s pipe:///tmp/snapfifo?name=VOLUMIO-MPD&mode=read&sampleformat=44100:16:2 "
 ```
 
-## /etc/MPD.conf
+## /etc/mpd.conf
 ```bash
 # Volumio MPD Configuration File
 
