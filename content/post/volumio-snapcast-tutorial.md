@@ -157,8 +157,8 @@ id3v1_encoding                  "UTF-8"
 ## /etc/spop.conf
 ```bash
 [spop]
-spotify_username = 1124989880
-spotify_password = Qf3YcC6BtnGmxwahuXHMxd58
+spotify_username = XXX
+spotify_password = XXX
 high_bitrate = true
 refresh_token = AQC6rDUzETZBqTUNV7FZ2d2lVHJ5MZxOjQ-GSX4kktp6WKIhX9tXIzC37IUF6OZz46KfxIbsqQQyLmyCbedWUxXVton2ZNKDbRrNZNMHSAEqcD8l0LeIRW_1Y73pRfh7mqM
 audio_output = sox
