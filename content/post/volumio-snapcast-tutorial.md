@@ -107,7 +107,7 @@ resampler {
 
 audio_output {
                 type            "alsa"
-                enabled         "no"
+                enabled         "yes"
                 name            "alsa"
                 device          "hw:0,0"
                 dop                     "no"
@@ -253,6 +253,11 @@ metadata-port = 5030
 After this, restart your volumio installation with
 ```bash
 sudo systemctl restart volumio
+```
+
+If you configure the snapclient, you have to set the output of volumio to *HDMI Out* and set the audio of your RPI to the audiojack with
+```bash
+amixer cset numid=3 0
 ```
 
 Everything should now run as expected and your snapclients should connects within 30 seconds after you plugin the power cord. Have fun.
