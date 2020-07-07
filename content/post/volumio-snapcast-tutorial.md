@@ -106,9 +106,9 @@ resampler {
 }
 
 audio_output {
-                type            "alsa"
-                name            "alsa"
-                device          "plughw:0"
+        type "alsa"
+        name "alsa"
+        device "default"
 }
 
 #replaygain                     "album"
@@ -150,7 +150,7 @@ cache_path =/run/shm
 
 [sox]
 output_type = alsa
-output_name = plughw:0
+output_name = default
 ```
 
 ## /etc/asound.conf
@@ -208,7 +208,7 @@ autoplay = true
 gapless = true
 
 [Output]
-device = 'plughw:0'
+device = 'default'
 #device = '/tmp/snapfifo'
 initial-volume = 50
 mixer = 'alsa' # softvolume or alsa
